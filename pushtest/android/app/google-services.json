@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "468660417599",
+    "project_id": "push-notification-test-e9394",
+    "storage_bucket": "push-notification-test-e9394.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:468660417599:android:2c89b1b73309d3de3ab48a",
+        "android_client_info": {
+          "package_name": "nichols.parker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "468660417599-44n0a74dcbqhgkatr5dufj02jp3jangr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0WDoVttPlI_1VTrckNR1Gw9viwYjW_YM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "468660417599-44n0a74dcbqhgkatr5dufj02jp3jangr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
