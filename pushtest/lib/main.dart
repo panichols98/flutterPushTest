@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:pushtest/service_locator.dart';
+import 'package:pushtest/services/push_notification_service.dart';
 
 void main() {
+  setupServiceLocator();
   runApp(const MyApp());
 }
 
@@ -10,6 +13,8 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
+    final pushNotificationService = getIt<PushNotificationService>();
+    pushNotificationService.initialise();
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
